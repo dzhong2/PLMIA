@@ -1,7 +1,6 @@
 # MEDUSA
  
-This repository is for paper "Exploiting Graph Unlearning for Membership Inference Attacks
-against Graph Neural Networks", which is submitted to AAAI 2024
+This repository is for paper "Exploiting Graph Poisoning and Unlearning to Enhance Link Inference Attacks", which is submitted to AAAI 2025
 
 ## Run proposed attack
 ### attack feature generation

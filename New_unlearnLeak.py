@@ -4,13 +4,20 @@ import torch
 from utils import load_data, remove_training
 import igraph
 from torchmetrics.functional import pairwise_cosine_similarity
+from sklearn.preprocessing import normalize
 import numpy as np
 import pandas as pd
 import pickle as pkl
 from run_target import run_target, config
+from prepare_partial_graph import partial_step
+from sklearn.preprocessing import StandardScaler
+from attack import attack_step
+from individual_edge_analysis import edge_analysis
 import igraph
 import copy
+import datetime
 from tqdm import tqdm
+import json
 
 
 def find_uncommon_neighbors(u, v, GA, ga_nodes):
