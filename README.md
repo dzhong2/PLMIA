@@ -44,4 +44,4 @@ Apply DEU, the defense method to defend against the attack
 `--beta`: Noise scale of laplace noise. A larger beta indicates a stronger defense.
 
 ## implement of GNN models
-We implement the GCN model based on the [this repo](https://github.com/tkipf/pygcn). The codes are* *in the `pygcn` folder.
+We implement the GCN model based on the [this repo](https://github.com/tkipf/pygcn). The codes are in the `pygcn` folder.

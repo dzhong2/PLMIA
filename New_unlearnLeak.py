@@ -464,12 +464,10 @@ if __name__ == "__main__":
 
     calculate_sim_only = True
 
-    if torch.cuda.is_available() and os.name == 'nt':
+    if torch.cuda.is_available():
         device = torch.device("cuda:0")
-        saving_path = model
-    else:
-        device = torch.device("cuda:2")
-        saving_path = f"../../../../Wang-ds/dzhong2/adversarial-attack/{model}"
+
+    saving_path = model
 
     adj, ft, labels = load_data("data", dataset, dropout=0)
     torch.diagonal(adj, 0).zero_()

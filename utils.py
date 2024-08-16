@@ -755,10 +755,8 @@ def get_inter_inds(edge1, edge2, tf_labels):
 
 
 def remove_training(model, dataset, rm, num_sub):
-    if torch.cuda.is_available() and os.name == 'nt':
-        saving_path = model
-    else:
-        saving_path = f"../../../../Wang-ds/dzhong2/adversarial-attack/{model}"
+    saving_path = model
+
     if len(rm) == 0:
         add_on = ""
     else:
