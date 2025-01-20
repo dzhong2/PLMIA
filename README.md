@@ -39,7 +39,7 @@ Train attack model
 
 #### Defense experiment
 
-Apply NoiseProb, the defense method to defend against the attack
+Apply ParNoise, the defense method to defend against the attack
 
 `--beta`: Noise scale of laplace noise. A larger beta indicates a stronger defense.
 
