@@ -1,6 +1,6 @@
 # PLMIA
  
-This repository is for paper "Enhancing Link Membership Inference Attacks against Graph Neural Networks through Graph Poisoning", which is submitted to IJCAI 2025
+This repository is for the paper "Boosting Link Privacy Attacks on GNNs through Graph Poisoning".
 
 ## Run proposed attack
 ### attack feature generation
@@ -29,7 +29,7 @@ This repository is for paper "Enhancing Link Membership Inference Attacks agains
 
 `python PLMIA_attack.py --dataset citeseer --partial 0.15 --budget 0.01 --exp2`
 
-Adding `exp2` will attack multiple targets in one attack, instead of launch one attack for each target.
+Adding `exp2` will attack multiple targets in one attack, instead of launching one attack for each target.
 
 #### Attack training
 
